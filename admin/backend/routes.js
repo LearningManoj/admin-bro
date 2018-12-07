@@ -26,6 +26,10 @@ class Routes {
       src: [this.assetsRoot, 'scripts/app.min.js'].join('/')
     },
     {
+      path:  '/frontend/assets/vendor.min.js',
+      src: [this.assetsRoot, 'scripts/vendor.min.js'].join('/')
+    },
+    {
       path:  '/frontend/assets/style.min.css',
       src: [this.assetsRoot, 'styles/style.min.css'].join('/')
     },
